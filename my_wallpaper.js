@@ -4,7 +4,8 @@ let y = 30;
 
 let midx = 100
 let midy = 100
-
+let lnlength = 30
+let flake = 60
 angleMode(DEGREES)
 
 function setup_wallpaper(pWallpaper) {
@@ -21,65 +22,83 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(240, 255, 240); //light honeydew green colour
+  background(34, 51, 102); //navy
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
   
-let green = color(188, 224, 186)
+let blue = color(71, 240, 255)
+//Long lines
+push()
+  translate (100, 100)
+  strokeWeight(3)
+  stroke(blue)
+  for(x=0; x<8; x++){
+  line(0, 0, lnlength, lnlength)
+  rotate(45)
+  }
+  pop()
 
-  strokeWeight(9)
-  stroke(green)
-  line(midx,0,midx,midy+100)
-  line(0,midy,midx+100,midy)
-
+  //Inner Triangle
+  push()
+  translate (100, 100)
+  stroke(blue)
+  strokeWeight(3)
+  for(x=0; x<16; x++){
+  line(10, 25, 0, 20)
+  line(-10, 25, 0, 20)
+  rotate(45)
+  }
+  pop()
 //
   rotate(0)
-  line(midx-100,midy-100,midx+100,midy+100)
-  line(midx-100,midy+100,midx+100,midy-100)
-  
-  // triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
-  
-  let blue = color(139,172,224);
   let pink = color(207, 138, 192)
 
 
 noFill()
-// triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
 
-
+//outer triangles
 push()
 let angle = 45
 translate(midx,midy)
 noFill()
-// triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
+strokeWeight(3)
 rotate(angle+180)
-stroke(pink)
-triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
-rotate(45)
-triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
-rotate(45)
-triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
-rotate(45)
-triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
-rotate(45)
-triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
-rotate(45)
-triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
-rotate(45)
-triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
-rotate(45)
-triangle(midx-40,midy-70,midx-70,midy-70,midx-70,midy-40)
+stroke(blue)
+for (let x = 0; x<8; x++){
+square(30, 30, 20);
+rotate(45);
+}
 pop()
 
-//custom shape
 
-
+push()
+translate(midx,midy)
+noFill()
+strokeWeight(2)
+rotate(angle+180)
 stroke(blue)
-line(midx-20,midy,midx,midy-20)
-line(midx,midy-20,midx+20,midy)
-line(midx+20,midy,midx,midy+20)
-line(midx,midy+20,midx-20,midy)
+for (let x = 0; x<8; x++){
+square(15, 15, 10);
+rotate(45);
+}
+pop()
+
+//innwe outer square
+push()
+translate(midx,midy)
+noFill()
+strokeWeight(2)
+rotate(angle+180)
+stroke(blue)
+for (let x = 0; x<8; x++){
+square(36, 36, 8);
+rotate(45);
+}
+pop()
+
+
+
 
 
 
