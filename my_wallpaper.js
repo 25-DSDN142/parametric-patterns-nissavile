@@ -4,17 +4,17 @@ let y = 30;
 
 let midx = 100
 let midy = 100
-let lnlength = 30
-let flake = 60
+
+
 angleMode(DEGREES)
 
 function setup_wallpaper(pWallpaper) {
-  // pWallpaper.output_mode(DEVELOP_GLYPH);
-  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.output_mode(DEVELOP_GLYPH);
+  // pWallpaper.output_mode(GRID_WALLPAPER);
   
   pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(true); //set this to false when you're ready to print
-
+  
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
@@ -28,11 +28,26 @@ function wallpaper_background() {
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
   
 
-let angle = 45
-let blue = color(71, 240, 255)
-let pink = color(236, 106, 247)
+  
+  // snowFlake();
+
+  push();
+  translate(midx, midy);
+  scale(0.5);
+  snowFlake();
+
+  pop();
+
+}
 
 
+function snowFlake(){
+    let blue = color(71, 240, 255)
+  let pink = color(236, 106, 247)
+  let lnlength = 30
+  let flake = 60
+  let angle = 45
+  
 //Long lines
 push()
   translate (100, 100)
@@ -101,21 +116,5 @@ square(36, 36, 8,);
 rotate(angle);
 }
 pop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
