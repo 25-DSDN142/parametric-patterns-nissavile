@@ -9,8 +9,8 @@ let flake = 60
 angleMode(DEGREES)
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(DEVELOP_GLYPH);
-  //pWallpaper.output_mode(GRID_WALLPAPER);
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
   
   pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(true); //set this to false when you're ready to print
@@ -18,7 +18,7 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.row_offset  = 150;
 }
 
 function wallpaper_background() {
@@ -27,7 +27,12 @@ function wallpaper_background() {
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
   
+
+let angle = 45
 let blue = color(71, 240, 255)
+let pink = color(236, 106, 247)
+
+
 //Long lines
 push()
   translate (100, 100)
@@ -35,7 +40,7 @@ push()
   stroke(blue)
   for(x=0; x<8; x++){
   line(0, 0, lnlength, lnlength)
-  rotate(45)
+  rotate(angle)
   }
   pop()
 
@@ -47,31 +52,31 @@ push()
   for(x=0; x<16; x++){
   line(10, 25, 0, 20)
   line(-10, 25, 0, 20)
-  rotate(45)
+  rotate(angle)
   }
   pop()
 //
   rotate(0)
-  let pink = color(207, 138, 192)
+  
 
 
 noFill()
 
 //outer triangles
 push()
-let angle = 45
+
 translate(midx,midy)
 noFill()
 strokeWeight(3)
 rotate(angle+180)
 stroke(blue)
 for (let x = 0; x<8; x++){
-square(30, 30, 20);
-rotate(45);
+square(30, 30, 20,);
+rotate(angle);
 }
 pop()
 
-
+//inner sqaures
 push()
 translate(midx,midy)
 noFill()
@@ -79,21 +84,21 @@ strokeWeight(2)
 rotate(angle+180)
 stroke(blue)
 for (let x = 0; x<8; x++){
-square(15, 15, 10);
-rotate(45);
+square(15, 15, 10,);
+rotate(angle);
 }
 pop()
 
-//innwe outer square
+//inner outer square
 push()
 translate(midx,midy)
 noFill()
 strokeWeight(2)
 rotate(angle+180)
-stroke(blue)
+stroke(pink)
 for (let x = 0; x<8; x++){
-square(36, 36, 8);
-rotate(45);
+square(36, 36, 8,);
+rotate(angle);
 }
 pop()
 
