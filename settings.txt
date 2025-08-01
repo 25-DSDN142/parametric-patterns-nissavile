@@ -10,13 +10,28 @@ Your final settings.txt will look something like this when you are finished:
 Wallpaper 1:
 
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let midx = 100;
+let midy = 100;
+
+let lineLength = 30;
+let rotationStep = 45;
+
+let innerTriangleLength = 10
+
+let outerSquareSize = 20;
+let innerSquareSize = 10;
+let detailSquareSize = 8;
+
+let outerSquareOffset = 30;
+let innerSquareOffset = 15;
+let detailSquareOffset = 36;
+
+let strokeMainWeight = 3;
+let strokeSubWeight = 2;
+
+
+let mainColor = [71, 240, 255]; // blue
+let detailColor = [236, 106, 247]; // pink
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -33,14 +48,322 @@ function setup_wallpaper(pWallpaper) {
 
 Wallpaper 2:
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let midx = 100;
+let midy = 100;
+
+let lineLength = 24;
+let rotationStep = 45;
+
+let innerTriangleLength = 7;
+
+let outerSquareSize = 22;
+let innerSquareSize = 12;
+let detailSquareSize = 10;
+
+let outerSquareOffset = 28;
+let innerSquareOffset = 14;
+let detailSquareOffset = 34;
+
+let strokeMainWeight = 2;
+let strokeSubWeight = 1;
+
+let mainColor = [255, 120, 80];    // orange-red
+let detailColor = [255, 200, 0];   // gold
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+
+
+Wallpaper 3:
+
+let midx = 100;
+let midy = 100;
+
+let lineLength = 35;
+let rotationStep = 45;
+
+let innerTriangleLength = 9;
+
+let outerSquareSize = 18;
+let innerSquareSize = 10;
+let detailSquareSize = 12;
+
+let outerSquareOffset = 50;
+let innerSquareOffset = 15;
+let detailSquareOffset = 36;
+
+let strokeMainWeight = 2;
+let strokeSubWeight = 2;
+
+let mainColor = [180, 180, 180];   // grey
+let detailColor = [255, 255, 255]; // white
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+Wallpaper 3:
+
+let midx = 100;
+let midy = 100;
+
+let lineLength = 10;
+let rotationStep = 90;
+
+let innerTriangleLength = 20;
+
+let outerSquareSize = 21;
+let innerSquareSize = 20;
+let detailSquareSize = 20;
+
+let outerSquareOffset = 40;
+let innerSquareOffset = 30;
+let detailSquareOffset = 20;
+
+let strokeMainWeight = 2;
+let strokeSubWeight = 4;
+
+let mainColor = [65, 75, 130]; // dark purple
+let detailColor = [208, 214, 242]; // light purple
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+Wallpaper 4:
+
+let midx = 100;
+let midy = 100;
+
+let lineLength = 25;
+let rotationStep = 45;
+
+let innerTriangleLength = 10;
+
+let outerSquareSize = 10;
+let innerSquareSize = 6;
+let detailSquareSize = 32;
+
+let outerSquareOffset = 10;
+let innerSquareOffset = 3;
+let detailSquareOffset = 20;
+
+let strokeMainWeight = 4;
+let strokeSubWeight = 8;
+
+let mainColor = [61, 56, 45];   // brown
+let detailColor = [224, 196, 117]; // yellow
+
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper 5:
+
+let midx = 100;
+let midy = 100;
+
+let lineLength = 18;
+let rotationStep = 90;
+
+let innerTriangleLength = 4;
+
+let outerSquareSize = 40;
+let innerSquareSize = 20;
+let detailSquareSize = 10;
+
+let outerSquareOffset = 0;
+let innerSquareOffset = 10;
+let detailSquareOffset = 20;
+
+let strokeMainWeight = 5;
+let strokeSubWeight = 4;
+
+let mainColor = [166, 25, 7];       // red
+let detailColor = [0, 0, 0];       // black
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+Wallpaper 6:
+
+let midx = 100;
+let midy = 100;
+
+let lineLength = 40;            // long spider legs
+let rotationStep = 45;          // 8 legs (360° / 8)
+
+let innerTriangleLength =15;    // no inner spikes
+
+let outerSquareSize = 10;        // no outer squares
+let innerSquareSize = 30;       // spider body (big square)
+let detailSquareSize = 20;       // no detail
+
+let outerSquareOffset = 10;
+let innerSquareOffset = -40;    
+let detailSquareOffset = 0;
+
+let strokeMainWeight = 3;
+let strokeSubWeight = 4;
+
+let mainColor = [0, 0, 0];       
+let detailColor = [0, 0, 0]; 
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper 7:
+
+let midx = 100;
+let midy = 100;
+
+let lineLength = 20;           
+let rotationStep = 90;        
+
+let innerTriangleLength = 20;   
+
+let outerSquareSize = 60;      
+let innerSquareSize = 40;      
+let detailSquareSize = 30;     
+
+let outerSquareOffset = 15;    
+let innerSquareOffset = 20;    
+let detailSquareOffset = 20;   
+
+let strokeMainWeight = 3;
+let strokeSubWeight = 2;
+
+let mainColor = [82, 30, 68];        // body & outline
+let detailColor = [255, 105, 180]; // hot pink wing color
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+
+Wallpaper 8:
+
+let midx = 100;
+let midy = 100;
+
+let lineLength = 50;           
+let rotationStep = 45;         
+
+let innerTriangleLength = 8;   
+let outerSquareSize = 5;
+let innerSquareSize = 30;      
+let detailSquareSize = 5;
+
+let outerSquareOffset = 36;
+let innerSquareOffset = -8;    
+let detailSquareOffset = 30;
+
+let strokeMainWeight = 3;
+let strokeSubWeight = 2;
+
+let mainColor = [0, 0, 0];           
+let detailColor = [0, 191, 255];  
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper 9:
+
+let midx = 100;
+let midy = 100;
+
+let lineLength = 20;            
+let rotationStep = 90;     
+
+let innerTriangleLength = 90;    
+let outerSquareSize = 9;        
+let innerSquareSize = 32;       
+let detailSquareSize = 80;       
+
+let outerSquareOffset = 0;
+let innerSquareOffset = 60;     
+let detailSquareOffset = 10;
+
+let strokeMainWeight = 4;       
+let strokeSubWeight = 2;
+
+let mainColor = [0, 0, 0];      
+let detailColor = [242, 107, 17];
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
