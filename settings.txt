@@ -7,31 +7,65 @@ Your final settings.txt will look something like this when you are finished:
 
 /////////////////////////////////
 
+
+Wallpaper 1
+
+
 Wallpaper 1:
 
 //your parameter variables go here!
 let midx = 100;
 let midy = 100;
 
-let lineLength = 30;
-let rotationStep = 45;
+// Snowflake 1
+let lineLength1 = 30;
+let rotationStep1 = 45;
+let innerTriangleLength1 = 10;
+let outerSquareSize1 = 20;
+let innerSquareSize1 = 10;
+let detailSquareSize1 = 8;
+let outerSquareOffset1 = 30;
+let innerSquareOffset1 = 15;
+let detailSquareOffset1 = 36;
+let strokeMainWeight1 = 3;
+let strokeSubWeight1 = 2;
+let mainColor1 = [130, 171, 191];
+let detailColor1 = [255, 255, 255];
+let flakeRotation1 = 0;
 
-let innerTriangleLength = 10
+// Snowflake 2
+let lineLength2 = 20;
+let rotationStep2 = 45;
+let innerTriangleLength2 = 10;
+let outerSquareSize2 = 12;
+let innerSquareSize2 = 8;
+let detailSquareSize2 = 6;
+let outerSquareOffset2 = 22;
+let innerSquareOffset2 = 12;
+let detailSquareOffset2 = 28;
+let strokeMainWeight2 = 2;
+let strokeSubWeight2 = 1;
+let mainColor2 = [130, 171, 191];
+let detailColor2 = [255, 255, 255];
+let flakeRotation2 = 15;
 
-let outerSquareSize = 20;
-let innerSquareSize = 10;
-let detailSquareSize = 8;
+// Snowflake 3
+let lineLength3 = 40;
+let rotationStep3 = 45;
+let innerTriangleLength3 = 5;
+let outerSquareSize3 = 25;
+let innerSquareSize3 = 12;
+let detailSquareSize3 = 10;
+let outerSquareOffset3 = 34;
+let innerSquareOffset3 = 18;
+let detailSquareOffset3 = 40;
+let strokeMainWeight3 = 3;
+let strokeSubWeight3 = 2;
+let mainColor3 = [130, 171, 191];
+let detailColor3 = [255, 255, 255];
+let flakeRotation3 = 25;
 
-let outerSquareOffset = 30;
-let innerSquareOffset = 15;
-let detailSquareOffset = 36;
-
-let strokeMainWeight = 3;
-let strokeSubWeight = 2;
-
-
-let mainColor = [71, 240, 255]; // blue
-let detailColor = [236, 106, 247]; // pink
+set line 69 to (26, 26, 46)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -51,24 +85,20 @@ Wallpaper 2:
 let midx = 100;
 let midy = 100;
 
-let lineLength = 24;
-let rotationStep = 45;
-
-let innerTriangleLength = 7;
-
-let outerSquareSize = 22;
-let innerSquareSize = 12;
-let detailSquareSize = 10;
-
-let outerSquareOffset = 28;
-let innerSquareOffset = 14;
-let detailSquareOffset = 34;
-
-let strokeMainWeight = 2;
-let strokeSubWeight = 1;
-
-let mainColor = [255, 120, 80];    // orange-red
-let detailColor = [255, 200, 0];   // gold
+let lineLength1 = 24;
+let rotationStep1 = 45;
+let innerTriangleLength1 = 7;
+let outerSquareSize1 = 22;
+let innerSquareSize1 = 12;
+let detailSquareSize1 = 10;
+let outerSquareOffset1 = 28;
+let innerSquareOffset1 = 14;
+let detailSquareOffset1 = 34;
+let strokeMainWeight1 = 2;
+let strokeSubWeight1 = 1;
+let mainColor1 = [255, 120, 80];    // orange-red
+let detailColor1 = [255, 200, 0];   // gold
+let flakeRotation1 = 0;
 
 
 function setup_wallpaper(pWallpaper) {
@@ -82,44 +112,7 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.row_offset  = 0;
 }
 
-
-
-
-Wallpaper 3:
-
-let midx = 100;
-let midy = 100;
-
-let lineLength = 35;
-let rotationStep = 45;
-
-let innerTriangleLength = 9;
-
-let outerSquareSize = 18;
-let innerSquareSize = 10;
-let detailSquareSize = 12;
-
-let outerSquareOffset = 50;
-let innerSquareOffset = 15;
-let detailSquareOffset = 36;
-
-let strokeMainWeight = 2;
-let strokeSubWeight = 2;
-
-let mainColor = [180, 180, 180];   // grey
-let detailColor = [255, 255, 255]; // white
-
-
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
-
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
-}
+set line 69 to (255, 245, 217)
 
 
 Wallpaper 3:
@@ -127,25 +120,55 @@ Wallpaper 3:
 let midx = 100;
 let midy = 100;
 
-let lineLength = 10;
-let rotationStep = 90;
+// Snowflake 1
+let lineLength1 = 35;
+let rotationStep1 = 45;
+let innerTriangleLength1 = 9;
+let outerSquareSize1 = 18;
+let innerSquareSize1 = 10;
+let detailSquareSize1 = 12;
+let outerSquareOffset1 = 50;
+let innerSquareOffset1 = 15;
+let detailSquareOffset1 = 36;
+let strokeMainWeight1 = 2;
+let strokeSubWeight1 = 2;
+let mainColor1 = [180, 180, 180];   // grey
+let detailColor1 = [255, 255, 255]; // white
+let flakeRotation1 = 0
 
-let innerTriangleLength = 20;
+// Snowflake 2
+let lineLength2 = 35;
+let rotationStep2 = 45;
+let innerTriangleLength2 = 9;
+let outerSquareSize2 = 18;
+let innerSquareSize2 = 10;
+let detailSquareSize2 = 12;
+let outerSquareOffset2 = 50;
+let innerSquareOffset2 = 15;
+let detailSquareOffset2 = 36;
+let strokeMainWeight2 = 2;
+let strokeSubWeight2 = 2;
+let mainColor2 = [180, 180, 180];   // grey
+let detailColor2 = [255, 255, 255]; // white
+let flakeRotation2 = 0
 
-let outerSquareSize = 21;
-let innerSquareSize = 20;
-let detailSquareSize = 20;
+// Snowflake 3
+let lineLength3 = 35;
+let rotationStep3 = 45;
+let innerTriangleLength3 = 9;
+let outerSquareSize3 = 18;
+let innerSquareSize3 = 10;
+let detailSquareSize3 = 12;
+let outerSquareOffset3 = 50;
+let innerSquareOffset3 = 15;
+let detailSquareOffset3 = 36;
+let strokeMainWeight3 = 2;
+let strokeSubWeight3 = 2;
+let mainColor3 = [180, 180, 180];   // grey
+let detailColor3 = [255, 255, 255]; // white
+let flakeRotation3 = 0
 
-let outerSquareOffset = 40;
-let innerSquareOffset = 30;
-let detailSquareOffset = 20;
-
-let strokeMainWeight = 2;
-let strokeSubWeight = 4;
-
-let mainColor = [65, 75, 130]; // dark purple
-let detailColor = [208, 214, 242]; // light purple
-
+set line 69 to (0)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -164,26 +187,55 @@ Wallpaper 4:
 let midx = 100;
 let midy = 100;
 
-let lineLength = 25;
-let rotationStep = 45;
+// Snowflake 1
+let lineLength1 = 10;
+let rotationStep1 = 90;
+let innerTriangleLength1 = 20;
+let outerSquareSize1 = 21;
+let innerSquareSize1 = 20;
+let detailSquareSize1 = 20;
+let outerSquareOffset1 = 40;
+let innerSquareOffset1 = 30;
+let detailSquareOffset1 = 20;
+let strokeMainWeight1 = 2;
+let strokeSubWeight1 = 4;
+let mainColor1 = [65, 75, 130]; // dark purple
+let detailColor1 = [208, 214, 242]; // light purple
+let flakeRotation1 = 0
 
-let innerTriangleLength = 10;
+// Snowflake 2
+let lineLength2 = 10;
+let rotationStep2 = 90;
+let innerTriangleLength2 = 20;
+let outerSquareSize2 = 21;
+let innerSquareSize2 = 20;
+let detailSquareSize2 = 20;
+let outerSquareOffset2 = 40;
+let innerSquareOffset2 = 30;
+let detailSquareOffset2 = 20;
+let strokeMainWeight2 = 2;
+let strokeSubWeight2 = 4;
+let mainColor2 = [65, 75, 130]; // dark purple
+let detailColor2 = [208, 214, 242]; // light purple
+let flakeRotation2 = 0
 
-let outerSquareSize = 10;
-let innerSquareSize = 6;
-let detailSquareSize = 32;
+// Snowflake 3
+let lineLength3 = 10;
+let rotationStep3 = 90;
+let innerTriangleLength3 = 20;
+let outerSquareSize3 = 21;
+let innerSquareSize3 = 20;
+let detailSquareSize3 = 20;
+let outerSquareOffset3 = 40;
+let innerSquareOffset3 = 30;
+let detailSquareOffset3 = 20;
+let strokeMainWeight3 = 2;
+let strokeSubWeight3 = 4;
+let mainColor3 = [65, 75, 130]; // dark purple
+let detailColor3 = [208, 214, 242]; // light purple
+let flakeRotation3 = 0
 
-let outerSquareOffset = 10;
-let innerSquareOffset = 3;
-let detailSquareOffset = 20;
-
-let strokeMainWeight = 4;
-let strokeSubWeight = 8;
-
-let mainColor = [61, 56, 45];   // brown
-let detailColor = [224, 196, 117]; // yellow
-
-
+set line 69 to (131, 110, 150)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -195,30 +247,62 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 100;
   pWallpaper.grid_settings.row_offset  = 0;
 }
+
 
 Wallpaper 5:
 
 let midx = 100;
 let midy = 100;
 
-let lineLength = 18;
-let rotationStep = 90;
+// Snowflake 1
+let lineLength1 = 25;
+let rotationStep1 = 45;
+let innerTriangleLength1 = 10;
+let outerSquareSize1 = 10;
+let innerSquareSize1 = 6;
+let detailSquareSize1 = 32;
+let outerSquareOffset1 = 10;
+let innerSquareOffset1 = 3;
+let detailSquareOffset1 = 20;
+let strokeMainWeight1 = 4;
+let strokeSubWeight1 = 8;
+let mainColor1 = [61, 56, 45];   // brown
+let detailColor1 = [224, 196, 117]; // yellow
+let flakeRotation1 = 0 
 
-let innerTriangleLength = 4;
+// Snowflake 2
+let lineLength2 = 25;
+let rotationStep2 = 45;
+let innerTriangleLength2 = 10;
+let outerSquareSize2 = 10;
+let innerSquareSize2 = 6;
+let detailSquareSize2 = 32;
+let outerSquareOffset2 = 10;
+let innerSquareOffset2 = 3;
+let detailSquareOffset2 = 20;
+let strokeMainWeight2 = 4;
+let strokeSubWeight2 = 8;
+let mainColor2 = [61, 56, 45];   // brown
+let detailColor2 = [224, 196, 117]; // yellow
+let flakeRotation2 = 0 
 
-let outerSquareSize = 40;
-let innerSquareSize = 20;
-let detailSquareSize = 10;
+// Snowflake 3
+let lineLength3 = 25;
+let rotationStep3 = 45;
+let innerTriangleLength3 = 10;
+let outerSquareSize3 = 10;
+let innerSquareSize3 = 6;
+let detailSquareSize3 = 32;
+let outerSquareOffset3 = 10;
+let innerSquareOffset3 = 3;
+let detailSquareOffset3 = 20;
+let strokeMainWeight3 = 4;
+let strokeSubWeight3 = 8;
+let mainColor3 = [61, 56, 45];   // brown
+let detailColor3 = [224, 196, 117]; // yellow
+let flakeRotation3 = 0 
 
-let outerSquareOffset = 0;
-let innerSquareOffset = 10;
-let detailSquareOffset = 20;
-
-let strokeMainWeight = 5;
-let strokeSubWeight = 4;
-
-let mainColor = [166, 25, 7];       // red
-let detailColor = [0, 0, 0];       // black
+set line 69 to (165, 201, 159)
 
 
 function setup_wallpaper(pWallpaper) {
@@ -231,32 +315,61 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 100;
   pWallpaper.grid_settings.row_offset  = 0;
 }
-
 
 Wallpaper 6:
 
 let midx = 100;
 let midy = 100;
 
-let lineLength = 40;            // long spider legs
-let rotationStep = 45;          // 8 legs (360° / 8)
+// Snowflake 1
+let lineLength1 = 18;
+let rotationStep1 = 90;
+let innerTriangleLength1 = 4;
+let outerSquareSize1 = 40;
+let innerSquareSize1 = 20;
+let detailSquareSize1 = 10;
+let outerSquareOffset1 = 0;
+let innerSquareOffset1 = 10;
+let detailSquareOffset1 = 20;
+let strokeMainWeight1 = 5;
+let strokeSubWeight1 = 4;
+let mainColor1 = [166, 25, 7];       // red
+let detailColor1 = [0, 0, 0];       // black
+let flakeRotation1 = 0 
 
-let innerTriangleLength =15;    // no inner spikes
+// Snowflake 2
+let lineLength2 = 18;
+let rotationStep2 = 90;
+let innerTriangleLength2 = 4;
+let outerSquareSize2 = 40;
+let innerSquareSize2 = 20;
+let detailSquareSize2 = 10;
+let outerSquareOffset2 = 0;
+let innerSquareOffset2 = 10;
+let detailSquareOffset2 = 20;
+let strokeMainWeight2 = 5;
+let strokeSubWeight2 = 4;
+let mainColor2 = [166, 25, 7];       // red
+let detailColor2 = [0, 0, 0];       // black
+let flakeRotation2 = 0 
 
-let outerSquareSize = 10;        // no outer squares
-let innerSquareSize = 30;       // spider body (big square)
-let detailSquareSize = 20;       // no detail
+// Snowflake 3
+let lineLength3 = 18;
+let rotationStep3 = 90;
+let innerTriangleLength3 = 4;
+let outerSquareSize3 = 40;
+let innerSquareSize3 = 20;
+let detailSquareSize3 = 10;
+let outerSquareOffset3 = 0;
+let innerSquareOffset3 = 10;
+let detailSquareOffset3 = 20;
+let strokeMainWeight3 = 5;
+let strokeSubWeight3 = 4;
+let mainColor3 = [166, 25, 7];       // red
+let detailColor3 = [0, 0, 0];       // black
+let flakeRotation3 = 0 
 
-let outerSquareOffset = 10;
-let innerSquareOffset = -40;    
-let detailSquareOffset = 0;
-
-let strokeMainWeight = 3;
-let strokeSubWeight = 4;
-
-let mainColor = [0, 0, 0];       
-let detailColor = [0, 0, 0]; 
-
+set line 69 to (200, 243, 247)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -268,31 +381,62 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 100;
   pWallpaper.grid_settings.row_offset  = 0;
 }
+
 
 Wallpaper 7:
 
 let midx = 100;
 let midy = 100;
 
-let lineLength = 20;           
-let rotationStep = 90;        
+// Snowflake 1
+let lineLength1 = 40;            
+let rotationStep1 = 45;          
+let innerTriangleLength1 =15;    
+let outerSquareSize1 = 10;        
+let innerSquareSize1 = 30;       
+let detailSquareSize1 = 20;       
+let outerSquareOffset1 = 10;
+let innerSquareOffset1 = -40;    
+let detailSquareOffset1 = 0;
+let strokeMainWeight1 = 3;
+let strokeSubWeight1 = 4;
+let mainColor1 = [0, 0, 0];       
+let detailColor1 = [0, 0, 0]; 
+let flakeRotation1 = 0 
 
-let innerTriangleLength = 20;   
+// Snowflake 2
+let lineLength2 = 40;            
+let rotationStep2 = 45;          
+let innerTriangleLength2 =15;    
+let outerSquareSize2 = 10;        
+let innerSquareSize2 = 30;       
+let detailSquareSize2 = 20;       
+let outerSquareOffset2 = 10;
+let innerSquareOffset2 = -40;    
+let detailSquareOffset2 = 0;
+let strokeMainWeight2 = 3;
+let strokeSubWeight2 = 4;
+let mainColor2 = [0, 0, 0];       
+let detailColor2 = [0, 0, 0]; 
+let flakeRotation2 = 0 
 
-let outerSquareSize = 60;      
-let innerSquareSize = 40;      
-let detailSquareSize = 30;     
+// Snowflake 3
+let lineLength3 = 40;            
+let rotationStep3 = 45;          
+let innerTriangleLength3 =15;    
+let outerSquareSize3 = 10;        
+let innerSquareSize3 = 30;       
+let detailSquareSize3 = 20;       
+let outerSquareOffset3 = 10;
+let innerSquareOffset3 = -40;    
+let detailSquareOffset3 = 0;
+let strokeMainWeight3 = 3;
+let strokeSubWeight3 = 4;
+let mainColor3 = [0, 0, 0];       
+let detailColor3 = [0, 0, 0]; 
+let flakeRotation3 = 0 
 
-let outerSquareOffset = 15;    
-let innerSquareOffset = 20;    
-let detailSquareOffset = 20;   
-
-let strokeMainWeight = 3;
-let strokeSubWeight = 2;
-
-let mainColor = [82, 30, 68];        // body & outline
-let detailColor = [255, 105, 180]; // hot pink wing color
-
+set line 69 to (184, 142, 212)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -304,31 +448,61 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 100;
   pWallpaper.grid_settings.row_offset  = 0;
 }
-
 
 Wallpaper 8:
 
 let midx = 100;
 let midy = 100;
 
-let lineLength = 50;           
-let rotationStep = 45;         
+// Snowflake 1
+let lineLength1 = 20;           
+let rotationStep1 = 90;        
+let innerTriangleLength1 = 20;   
+let outerSquareSize1 = 60;      
+let innerSquareSize1 = 40;      
+let detailSquareSize1 = 30;     
+let outerSquareOffset1 = 15;    
+let innerSquareOffset1 = 20;    
+let detailSquareOffset1 = 20;   
+let strokeMainWeight1 = 3;
+let strokeSubWeight1 = 2;
+let mainColor1 = [82, 30, 68];        
+let detailColor1 = [255, 105, 180]; // hot pink 
+let flakeRotation1 = 0 
 
-let innerTriangleLength = 8;   
-let outerSquareSize = 5;
-let innerSquareSize = 30;      
-let detailSquareSize = 5;
+// Snowflake 2
+let lineLength2 = 20;           
+let rotationStep2 = 90;        
+let innerTriangleLength2 = 20;   
+let outerSquareSize2 = 60;      
+let innerSquareSize2 = 40;      
+let detailSquareSize2 = 30;     
+let outerSquareOffset2 = 15;    
+let innerSquareOffset2 = 20;    
+let detailSquareOffset2 = 20;   
+let strokeMainWeight2 = 3;
+let strokeSubWeight2 = 2;
+let mainColor2 = [82, 30, 68];        
+let detailColor2 = [255, 105, 180]; // hot pink 
+let flakeRotation2 = 0 
 
-let outerSquareOffset = 36;
-let innerSquareOffset = -8;    
-let detailSquareOffset = 30;
+// Snowflake 3
+let lineLength3 = 20;           
+let rotationStep3 = 90;        
+let innerTriangleLength3 = 20;   
+let outerSquareSize3 = 60;      
+let innerSquareSize3 = 40;      
+let detailSquareSize3 = 30;     
+let outerSquareOffset3 = 15;    
+let innerSquareOffset3 = 20;    
+let detailSquareOffset3 = 20;   
+let strokeMainWeight3 = 3;
+let strokeSubWeight3 = 2;
+let mainColor3 = [82, 30, 68];        
+let detailColor3 = [255, 105, 180]; // hot pink
+let flakeRotation3 = 0 
 
-let strokeMainWeight = 3;
-let strokeSubWeight = 2;
-
-let mainColor = [0, 0, 0];           
-let detailColor = [0, 191, 255];  
-
+set line 69 to (243, 182, 250)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -340,30 +514,62 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 100;
   pWallpaper.grid_settings.row_offset  = 0;
 }
+
 
 Wallpaper 9:
 
 let midx = 100;
 let midy = 100;
 
-let lineLength = 20;            
-let rotationStep = 90;     
+// Snowflake 1
+let lineLength1 = 50;           
+let rotationStep1 = 45;         
+let innerTriangleLength1 = 8;   
+let outerSquareSize1 = 5;
+let innerSquareSize1 = 30;      
+let detailSquareSize1 = 5;
+let outerSquareOffset1 = 36;
+let innerSquareOffset1 = -8;    
+let detailSquareOffset1 = 30;
+let strokeMainWeight1 = 3;
+let strokeSubWeight1 = 2;
+let mainColor1 = [0, 0, 0];           
+let detailColor1 = [0, 191, 255]; 
+let flakeRotation1 = 0 
 
-let innerTriangleLength = 90;    
-let outerSquareSize = 9;        
-let innerSquareSize = 32;       
-let detailSquareSize = 80;       
+// Snowflake 2
+let lineLength2 = 50;           
+let rotationStep2 = 45;         
+let innerTriangleLength2 = 8;   
+let outerSquareSize2 = 5;
+let innerSquareSize2 = 30;      
+let detailSquareSize2 = 5;
+let outerSquareOffset2 = 36;
+let innerSquareOffset2 = -8;    
+let detailSquareOffset2 = 30;
+let strokeMainWeight2 = 3;
+let strokeSubWeight2 = 2;
+let mainColor2 = [0, 0, 0];           
+let detailColor2 = [0, 191, 255]; 
+let flakeRotation2 = 0 
 
-let outerSquareOffset = 0;
-let innerSquareOffset = 60;     
-let detailSquareOffset = 10;
+// Snowflake 3
+let lineLength3 = 50;           
+let rotationStep3 = 45;         
+let innerTriangleLength3 = 8;   
+let outerSquareSize3 = 5;
+let innerSquareSize3 = 30;      
+let detailSquareSize3 = 5;
+let outerSquareOffset3 = 36;
+let innerSquareOffset3 = -8;    
+let detailSquareOffset3 = 30;
+let strokeMainWeight3 = 3;
+let strokeSubWeight3 = 2;
+let mainColor3 = [0, 0, 0];           
+let detailColor3 = [0, 191, 255]; 
+let flakeRotation3 = 0  
 
-let strokeMainWeight = 4;       
-let strokeSubWeight = 2;
-
-let mainColor = [0, 0, 0];      
-let detailColor = [242, 107, 17];
-
+set line 69 to (242, 250, 255)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -375,3 +581,4 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.cell_height = 100;
   pWallpaper.grid_settings.row_offset  = 0;
 }
+
